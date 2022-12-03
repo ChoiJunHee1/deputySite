@@ -19,4 +19,10 @@ public class MainController {
         return "price_info";
     }
 
+    @GetMapping("/kaka")
+    public String kaka(){
+        System.out.println("뀨뀨");
+        return "kaka";
+    }
+
 }
